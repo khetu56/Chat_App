@@ -1,0 +1,39 @@
+body {
+    margin-left: 20px;
+}
+
+
+.chat {
+  background: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  max-width: 450px;
+  min-width: 250px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 16px;
+}
+
+.msg div {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.msg button {
+
+    border-radius: 10px;
+    padding: 4px 10px;
+    border: none;
+    cursor: pointer;
+
+}
